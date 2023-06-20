@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/35e096853f.js" crossorigin="anonymous"></script>
+    <title>Odin - Tic, Tac, Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <div class="game-start" id="game-start">
+        <h2>Ready To Play?</h2>
+        <br>
+        <div class="btn" id="start-btn">
+            <button>Start</button>
+        </div>
+    </div>
+    <main class="main-container" id="main-container">
+        <div class="game-info">
+            <h2 id="round-counter">Round: 1</h2>
+            <br>
+            <hr>
+            <br>
+            <h3 id="player-turn">Player X's turn</h3>
+            <br>
+        </div>
+        <div class="game-grid" id="game-grid">
+            <div class="field" data-index="0"></div>
+            <div class="field" data-index="1"></div>
+            <div class="field" data-index="2"></div>
+            <div class="field" data-index="3"></div>
+            <div class="field" data-index="4"></div>
+            <div class="field" data-index="5"></div>
+            <div class="field" data-index="6"></div>
+            <div class="field" data-index="7"></div>
+            <div class="field" data-index="8"></div>
+        </div>
+        <br>
+    </main>
+    <div class="modal" id="modal">
+        <h2 id="game-outcome"></h2>
+        <br>
+        <div class="btn" id="restart-btn">
+            <button>Restart</button>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <footer>
+        <p>Kyle Keene-Welch © 2023</p>
+        <a href="https://github.com/KyleKeeneWelch"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </footer>
+</body>
+</html>
